@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8">
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<!--
+    lista de jugadores mvp de la temporada 20/21
+-->
+<jugadores-mvp>
+    <jugador>
+        <nombre> Nikola jokic </nombre>
+        <equipo> Denver Nuggets </equipo>
+        <peso> 129 kg </peso>
+        <dorsal> 15 </dorsal>
+        <altura> 2,11 cm </altura>
+    </jugador>
+    <jugador>
+        <nombre> Joel Embiid </nombre>
+        <equipo> Philadelphia 76ers </equipo>
+        <peso> 127 Kg </peso>
+        <dorsal> 21 </dorsal>
+        <altura> 2,13 cm</altura>
+    </jugador>
+    <jugador>
+        <nombre> Stephen Curry </nombre>
+        <equipo> Warrios </equipo>
+        <peso> 86 Kg </peso>
+        <dorsal> 30 </dorsal>
+        <altura> 1,91 cm</altura>
+    </jugador>
+</jugadores-mvp>

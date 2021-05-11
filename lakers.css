@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(108, 15, 161);
+}
+
+/*COLOCACIÓN DEL CONTENEDOR DE DIAPOSITIVAS*/
+.contenedor-diapositivas{
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+/*OCULTAR LAS IMÁGENES POR DEFECTO*/
+.desvanecer-diap{
+    display: none;
+}
+
+/*BOTONES NEXT Y PREV DENTRO DEL CONTENEDOR
+SE PUEDE SEPARAR POR UNA COMA DOS CLASES PARA QUE HAGAN LOS MISMO*/
+.prev, .next{ 
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/*MOVER NEXT A LA DERECHA*/
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*ESTILO DEL TEXTO*/
+.text{
+    color: #f2f2f2;
+    font-size: 35px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/*ESTILO AL NUMERO DE DIAPOSITIVA*/
+.numbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/*ESTILO A LOS DOT*/
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/*ANIMACIÓN DE LA DIAPOSITIVA DE PASAR UNA A OTRA*/
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.boton{
+    margin-left: 925px;
+    margin-top: 20px;
+}

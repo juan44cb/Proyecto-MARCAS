@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <meta http-equiv="Author" content="Juan Mengibar"/>
+    <meta http-equiv="keywords" content="NBA"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <!--he utilizado formspree para que envie el correo indicado-->
+        <form action="https://formspree.io/f/xpzkpaed" method="post">
+      
+          <label for="fname">Nombre</label>
+          <input type="text" id="fname" name="firstname">
+      
+          <label for="lname">Apellido</label>
+          <input type="text" id="lname" name="lastname">
+
+          <label for="mail">Correo</label>
+          <input type="text" id="mail" name="mail">
+      
+          <label for="country">Ganador de la NBA</label>
+          <select id="country" name="country">
+            <option value="australia">Lakers</option>
+            <option value="usa">Brooklyn</option>
+          </select>
+          <p>
+            <input type="submit" value="Enviar">
+          </p> 
+        </form>
+    </div>
+    <div class="boton2">
+      <form method="get" action="html.html">
+          <button class="boton" role="link">INICIO</button>
+      </form>
+</body>
+</html>

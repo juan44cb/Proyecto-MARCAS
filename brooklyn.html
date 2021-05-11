@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="brooklyn.css">
+    <meta http-equiv="Author" content="Juan Mengibar"/>
+    <meta http-equiv="keywords" content="NBA"/>
+    <title>Brooklyn</title>
+</head>
+<body>
+    <!--  Contenedor de imagenes de los jugadores -->
+    <div class="contenedor-diapositivas">
+
+        <div class="mySlides fade">
+            <div class="numbertext">Cada circulo es un jugador titular- Irving</div>
+            <img src="Imagenes/irving.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Harden</div>
+            <img src="Imagenes/harden.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Durant</div>
+            <img src="Imagenes/durant.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Deandre</div>
+            <img src="Imagenes/deandre.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Joe</div>
+            <img src="Imagenes/joe.png" style="width:100%">
+        </div>
+
+
+    </div>
+    <br>
+    <!--Los puntos y círculos de las imágenes-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <br><br>
+
+    <!--Boton inicio-->
+    <div class="boton">
+        <form method="get" action="html.html">
+            <button class="boton" role="link">INICIO</button>
+        </form>
+    </div>
+    <!--Tengo que declarar el script antes del cierre de la eiqueta boody-->
+    <script src="diapositivas.js"></script>
+</body>
+</html>

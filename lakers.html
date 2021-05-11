@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lakers.css">
+    <meta http-equiv="Author" content="Juan Mengibar"/>
+    <meta http-equiv="keywords" content="NBA"/>
+    <title>Lakers</title>
+</head>
+<body>
+    <!--  Contenedor de imagenes de los jugadores -->
+    <div class="contenedor-diapositivas">
+
+        <div class="mySlides fade">
+            <div class="numbertext">Cada circulo es un jugador titular- Lebron</div>
+            <img src="Imagenes/lebron.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Davis</div>
+            <img src="Imagenes/davis.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Dennis</div>
+            <img src="Imagenes/dennis.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Drummond</div>
+            <img src="Imagenes/drummond.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Pope</div>
+            <img src="Imagenes/pope.png" style="width:100%">
+        </div>
+
+
+    </div>
+    <br>
+    <!--Los puntos y círculos de las imágenes-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <form method="get" action="html.html">
+        <button class="boton" role="link">INICIO</button>
+    </form>
+
+    <!--Tengo que declarar el script antes del cierre de la eiqueta boody-->
+    <script src="diapositivas.js"></script>
+</body>
+</html>

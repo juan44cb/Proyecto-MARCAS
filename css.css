@@ -1,0 +1,117 @@
+.logo{
+    display:block;
+    height: auto;
+    width: 200px;
+    margin:auto;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+/*CUERPO*/
+body{
+    margin:auto;
+    border-width: 10px;
+    border-style:solid;
+    border-color: #04009a;
+    background-color: rgb(243, 243, 243);
+}
+
+/*estilo del menu lateral*/
+.menu-lateral{
+    height: 160px;
+    width: 150px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #04009a; 
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/*Interacción del cursor sobre los caracteres + color fondo*/
+.menu-lateral a:hover{
+    color:rgb(108, 126, 175);
+    background-color: rgb(16, 7, 94);
+}
+
+
+/*Ajustar el menu lateral + color caracteres*/
+.menu-lateral a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    display:inline-block;
+    overflow: unset;
+    padding: 6px 8px 6px 16px;
+    font-size: 20px;
+}
+
+/*Para ajustar la barra lateral con el cuerpo de la pagina principal*/
+main{
+    background-color: rgb(243, 243, 243);
+}
+
+/*Estilo del parrafo*/
+article p{
+    background-color: rgb(243, 243, 243);
+    border-style:solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgb(50, 174, 205);
+    color:rgb(10, 10, 10);
+    font-size: 20px;
+    width: 60%;
+    height: 150px;
+    margin: 20px 20px 20px 350px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*Imagenes equipos*/
+div img{
+    width: auto;
+    margin-left: 280px;
+    height: 200px;
+}
+
+/*Barra lateral + imagenes*/
+div.nav{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(243, 243, 243);
+}
+
+/*Vídeo nba PAGINA PRINCIPAL*/
+div video{
+    width: 1000px;
+    margin-bottom: 20px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: mediumturquoise;
+}
+
+/*Mover al centro el video*/
+div.cvideos {
+    text-align: center;
+}
+
+/*Estilo titulo del parrafo*/
+main div.tituloart{
+    background-color: rgb(243, 243, 243);
+    border-style: none;
+    width: 60%;
+    height: 80px;
+    margin: 20px 20px 20px 350px;
+}
+
+/*Tamaño y fuente del titulo del parrafo*/
+div.tituloart p{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
